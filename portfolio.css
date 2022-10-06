@@ -311,17 +311,17 @@ section .button button:hover{
 }
 
 /* My Services CSS */
-.services{
+.Portfolio{
   background:black ;
 }
 
-.services .boxes{
+Portfolio .boxes{
   display: flex;
   flex-wrap: wrap;
   
   justify-content: space-between;
 }
-.services .boxes .box{
+.Portfolio .boxes .box{
   margin: 20px 0;
   width: calc(100% / 3 - 20px);
   text-align: center;
@@ -332,11 +332,11 @@ section .button button:hover{
   background: #d4eb81;
   transition: all 0.4s ease;
 }
-.services .boxes .box:hover{
+.Portfolio .boxes .box:hover{
   background: #4070f4;
   color: rgb(244, 240, 248);
 }
-.services .boxes .box .icon{
+.Portfolio .boxes .box .icon{
   height: 50px;
   width: 50px;
   background: #4070f4;
@@ -352,13 +352,13 @@ section .button button:hover{
   background-color: rgb(255, 255, 255);
   color: #4070f4;
 }
-.services .boxes .box:hover .topic,
-.services .boxes .box:hover p{
+.Portfolio .boxes .box:hover .topic,
+.Portfolio .boxes .box:hover p{
   color: #28ca12;
   transition: all 0.4s ease;
 }
-.services .boxes .box:hover .topic,
-.services .boxes .box:hover p{
+.Portfolio .boxes .box:hover .topic,
+.Portfolio .boxes .box:hover p{
   color: #fff;
 }
 /* Contact Me CSS */
@@ -431,7 +431,7 @@ footer .text span a:hover{
     width: 90%;
     margin: 40px 0;
   }
-  .services .boxes .box{
+  .Portfolio .boxes .box{
     margin: 20px 0;
     width: calc(100% / 2 - 20px);
   }
@@ -499,7 +499,7 @@ footer .text span a:hover{
     align-items: center;
     width: 100%;
   }
-  .services .boxes .box{
+  .Portfolio .boxes .box{
     margin: 20px 0;
     width: 100%;
   }
