@@ -315,7 +315,7 @@ section .button button:hover{
   background:black ;
 }
 
-Portfolio .boxes{
+.Portfolio .boxes{
   display: flex;
   flex-wrap: wrap;
   
